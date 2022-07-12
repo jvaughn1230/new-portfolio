@@ -12,7 +12,7 @@ function Navbar() {
 
         <div className='list-none'>
                 <GiHamburgerMenu onClick={()=>setToggleMenu(true)} className='md:hidden' />
-            <div className= {`${toggleMenu ? 'block' : 'hidden'} md:block`}>
+            <div className= {`${toggleMenu?'block':'hidden'} md:block`}>
                         <li className='md:inline px-3'>
                             <a href='#About'>About</a>
                         </li>
