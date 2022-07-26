@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Skills() {
   return (
@@ -6,4 +6,4 @@ function Skills() {
   )
 }
 
-export default Skills
+export default Skills;
